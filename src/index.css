@@ -11,8 +11,12 @@
         font-family: 'Overpass', sans-serif;
     }
 
+    .nav--lists > li{
+        cursor: pointer;
+    }
+
     .nav--sublists{
-        @apply bg-gray-100 mx-5 py-5 rounded-lg text-gray-400;
+        @apply bg-gray-100 mx-5 py-5 rounded-lg text-gray-500 text-lg leading-10;
     }
 
     .hero--btns{
