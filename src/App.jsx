@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from './components/Header'
+import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>
+    <div className='app--container relative'>
       <Header />
-      <Navbar />
+      <Hero />
     </div>
   )
 }

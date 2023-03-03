@@ -10,7 +10,7 @@ const Navbar = () => {
     const arrowDown = <img className='inline' src="./src/assets/images/icon-arrow-light.svg" alt="Icon arrow up" />
 
   return (
-    open && <nav className='bg-white-500 mx-5 text-center rounded-lg leading-12 font-semibold text-darkblue text-xl'>
+    open && <nav className='mt-10 bg-white text-center rounded-lg leading-12 font-semibold text-darkblue text-xl z-20'>
       <ul className='py-5 border-b border-gray-200' >
         <li>Product {arrowUp}
             {listOpen && <ul className='nav--sublists'>

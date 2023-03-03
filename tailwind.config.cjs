@@ -13,6 +13,9 @@ module.exports = {
       },
       lineHeight:{
         '12': '3rem'
+      },
+      backgroundImage:{
+        'hero-pattern': "url('/src/assets/images/bg-pattern-intro-mobile.svg')"
       }
     },
   },
