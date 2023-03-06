@@ -2,11 +2,11 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='absolute top-0 w-full h-[600px] p-5 rounded-bl-[80px] bg-gradient-to-t from-lightred to-verylightred overflow-hidden flex flex-col justify-center items-center text-center text-white'>
+    <div className='flex flex-col justify-center items-center text-center text-white my-24'>
        
-       <img className='absolute bottom-5 left-[100px] scale-[3]' src="./src/assets/images/bg-pattern-intro-mobile.svg" alt="Round background pattern" />
+      
 
-       <div className='absolute p-5'>
+       <div className='p-5 z-10'>
             <h1 className='text-4xl'>A modern <span className='whitespace-nowrap md:whitespace-normal'>publishing platform</span> </h1>
             <p className='mt-5 text-xl opacity-80'>Grow your audience and build your online brand</p>
             <div className='hero--btns mt-10 w-full px-4 flex justify-between gap-4'>

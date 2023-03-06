@@ -22,4 +22,14 @@
     .hero--btns{
         font-family: 'Ubuntu', sans-serif;
     }
+    
+    h2{
+        @apply my-8 font-semibold text-2xl px-10 text-darkblue;
+    }
+
+    main p{
+        @apply px-9 text-grayishblue;
+    }
+
+    
 }
