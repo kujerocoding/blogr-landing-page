@@ -15,18 +15,18 @@ const Body = () => {
       </div>
      
 
-      <div className='relative w-full bg-darkblue rounded-tr-[80px] rounded-bl-[80px] py-32 mt-60'>
+      <div className='relative w-full bg-gradient-to-b from-darkgrayblue to-darkdesaturatedblue rounded-tr-[80px] rounded-bl-[80px] py-32 mt-60'>
         
         <img className='absolute -top-44 left-0 z-20' src="./src/assets/images/illustration-phones.svg" alt="phones illustration" />
         <div className='absolute w-full h-full top-0 overflow-hidden rounded-[inherit]'>
             <img className='absolute -top-32 scale-150' src="./src/assets/images/bg-pattern-circles.svg" alt="circles pattern" />
         </div>
         <h2 className='relative z-20 text-white text-4xl pt-10'>State of the Art Infrastructure</h2>  
-        <p className='relative z-20 text-white'>ith reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        <p className='relative z-20 text-grayblue'>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
       </div>
 
       <div className='my-24'>
-        <img className='py-10 scale-125 w-full' src="./src/assets/images/illustration-laptop-mobile.svg" alt="laptop illustration" />
+        <img className='w-full' src="./src/assets/images/illustration-laptop-mobile.svg" alt="laptop illustration" />
         <h2>Free, open, simple</h2>
         <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
         <h2> Powerful tooling</h2>
