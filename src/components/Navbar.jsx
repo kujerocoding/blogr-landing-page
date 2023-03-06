@@ -29,7 +29,7 @@ const Navbar = (props) => {
 
 
   return (
-    props.isMenuOpen && <nav className='mt-10 bg-white text-center rounded-lg leading-12 font-semibold text-darkblue text-xl shadow-xl z-20'>
+    props.isMenuOpen && <nav className=' mt-10 bg-white text-center rounded-lg leading-12 font-semibold text-darkblue text-xl shadow-xl z-50'>
       <ul className='nav--lists py-5 border-b border-gray-200'>
         <li id="product" onClick={toggleSublist}>Product&ensp;
         <img className={`inline ${isShowProduct ? 'rotate-180' : ""}`} src="./src/assets/images/icon-arrow-dark.svg" alt="Icon arrow" />

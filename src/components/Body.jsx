@@ -2,7 +2,7 @@ import React from 'react'
 
 const Body = () => {
   return (
-    <main className='absolute mt-24 text-center flex justify-center flex-col items-center'>
+    <main className=' mt-24 text-center flex justify-center flex-col items-center'>
 
       <h2 className='px-10'>Designed for the future</h2>
 

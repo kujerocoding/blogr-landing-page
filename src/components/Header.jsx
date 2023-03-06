@@ -11,7 +11,7 @@ const Header = () => {
   }
 
   return (
-    <header className='relative pt-10 w-full px-5 z-20'>
+    <header className='absolute top-0 pt-10 w-full px-5 z-20'>
       <div className='flex justify-between items-center'>
         <img src="/src/assets/images/logo.svg" alt="Blogr logo" />
         <img src={`/src/assets/images/${!isMenuOpen ? 'icon-hamburger' : 'icon-close'}.svg`} 

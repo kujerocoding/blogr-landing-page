@@ -31,5 +31,13 @@
         @apply px-9 text-grayishblue;
     }
 
+    h3{
+        @apply text-white font-semibold mb-2;
+    }
+
+    footer li {
+        @apply text-grayblue text-sm leading-6;
+    }
+
     
 }
