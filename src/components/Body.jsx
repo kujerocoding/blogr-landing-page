@@ -2,16 +2,19 @@ import React from 'react'
 
 const Body = () => {
   return (
-    <main className=' mt-24 text-center flex justify-center flex-col items-center'>
+    <main className='mt-24 text-center flex justify-center flex-col items-center overflow-x-hidden'>
 
-      <h2 className='px-10'>Designed for the future</h2>
+      <h2 className='px-10 md:text-3xl'>Designed for the future</h2>
 
-      <div>
-        <img className='w-full' src="./src/assets/images/illustration-editor-mobile.svg" alt="editor illustration"/>
+      <div className='md:grid md:grid-cols-2'>
+        <img className='w-full md:hidden' src="./src/assets/images/illustration-editor-mobile.svg" alt="editor illustration"/>
+        <img className='w-full hidden md:block md:col-start-2 md:translate-x-40 md:scale-125 md:-translate-y-24 ' src="./src/assets/images/illustration-editor-desktop.svg" alt="editor illustration"/>
+        <div className='md:row-start-1 md:text-left md:pl-20'>
         <h2>Introducing an extensible editor</h2>
         <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.</p>
         <h2>Robust content management</h2>
         <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you're in full control.</p>
+        </div>
       </div>
      
 
