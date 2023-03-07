@@ -39,5 +39,15 @@
         @apply text-grayblue text-sm leading-6;
     }
 
-    
+    .nav__menu--link{
+        @apply relative flex justify-center items-center cursor-pointer active:underline;
+    }
+
+    .nav__menu--sublinks{
+        @apply absolute text-left bg-white text-darkdesaturatedblue p-5 top-10 -left-5 rounded-md font-normal;
+    }
+
+    .nav__menu--sublinks > li{
+        @apply hover:font-semibold cursor-pointer;
+    }
 }
