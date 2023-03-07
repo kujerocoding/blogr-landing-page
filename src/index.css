@@ -36,7 +36,7 @@
     }
 
     footer li {
-        @apply text-grayblue text-sm leading-6;
+        @apply text-grayblue text-sm leading-6 hover:underline cursor-pointer;
     }
 
     .nav__menu--link{

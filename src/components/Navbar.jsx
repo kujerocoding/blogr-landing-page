@@ -99,7 +99,7 @@ const Navbar = (props) => {
       </ul>
       <ul className='flex justify-center items-center gap-10 pl-6'>
         <li><button>Login</button></li>
-        <li><button className='px-10 py-2 text-lightred rounded-full bg-white'>Signup</button></li>
+        <li><button className='px-10 py-2 text-lightred rounded-full bg-white hover:bg-lightred hover:text-white'>Signup</button></li>
       </ul>
       </div>
     </nav>
