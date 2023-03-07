@@ -36,12 +36,17 @@ const Body = () => {
 
       </div>
 
-      <div className='my-24'>
-        <img className='w-full' src="./src/assets/images/illustration-laptop-mobile.svg" alt="laptop illustration" />
+      <div className='my-32 md:grid md:grid-cols-2 md:items-center md:text-left'>
+        <img className='w-full md:hidden' src="./src/assets/images/illustration-laptop-mobile.svg" alt="laptop illustration" />
+        <img className='hidden md:block md:-ml-40 md:scale-110' src="./src/assets/images/illustration-laptop-desktop.svg" alt="" />
+       
+        <div className='md:pr-32 md:leading-8'>
         <h2>Free, open, simple</h2>
         <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
         <h2> Powerful tooling</h2>
         <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
+        </div>
+
       </div>
       
     </main>
