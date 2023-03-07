@@ -22,14 +22,14 @@ const Body = () => {
       <div className='relative w-full bg-gradient-to-b from-darkgrayblue to-darkdesaturatedblue rounded-tr-[80px] rounded-bl-[80px]  mt-60 md:grid md:grid-cols-2 md:items-center'>
 
         <div className='relative w-full h-[300px] md:h-[400px] rounded-[inherit]'>
-          <img className='absolute -top-48 md:-top-20' src="./src/assets/images/illustration-phones.svg" alt="phones illustration" />
+          <img className='absolute -top-48 md:-top-20 z-20 md:ml-12' src="./src/assets/images/illustration-phones.svg" alt="phones illustration" />
         </div>
         
-        <div className='absolute w-full h-full top-0 left-0 overflow-hidden rounded-[inherit] -z-10'>
-            <img className='' src="./src/assets/images/bg-pattern-circles.svg" alt="circles pattern" />
+        <div className='absolute w-full h-full top-0 left-0 overflow-hidden rounded-[inherit]'>
+            <img className='absolute z-10 -top-[100px] scale-125 md:scale-75 md:-top-[500px] md:-left-[300px] ' src="./src/assets/images/bg-pattern-circles.svg" alt="circles pattern" />
         </div>
 
-        <div className='my-10 md:mt-0 md:col-start-2 md:text-left md:pr-24'>
+        <div className='relative my-10 md:mt-0 md:col-start-2 md:text-left md:pr-24 z-30'>
           <h2 className=' text-white text-4xl pt-10 md:pt-0'>State of the Art Infrastructure</h2>  
           <p className=' text-grayblue md:leading-8'>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
         </div>
