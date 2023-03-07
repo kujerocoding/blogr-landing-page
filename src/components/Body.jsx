@@ -17,15 +17,23 @@ const Body = () => {
         </div>
       </div>
      
+     {/*  absolute -top-44 left-0 z-20 md:-top-16 md:left-16 */}
 
-      <div className='relative w-full bg-gradient-to-b from-darkgrayblue to-darkdesaturatedblue rounded-tr-[80px] rounded-bl-[80px] py-32 mt-60'>
-        
-        <img className='absolute -top-44 left-0 z-20' src="./src/assets/images/illustration-phones.svg" alt="phones illustration" />
-        <div className='absolute w-full h-full top-0 overflow-hidden rounded-[inherit]'>
-            <img className='absolute -top-32 scale-150' src="./src/assets/images/bg-pattern-circles.svg" alt="circles pattern" />
+      <div className='relative w-full bg-gradient-to-b from-darkgrayblue to-darkdesaturatedblue rounded-tr-[80px] rounded-bl-[80px]  mt-60 md:grid md:grid-cols-2 md:items-center'>
+
+        <div className='relative w-full h-[300px] md:h-[400px] rounded-[inherit]'>
+          <img className='absolute -top-48 md:-top-20' src="./src/assets/images/illustration-phones.svg" alt="phones illustration" />
         </div>
-        <h2 className='relative z-20 text-white text-4xl pt-10'>State of the Art Infrastructure</h2>  
-        <p className='relative z-20 text-grayblue'>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        
+        <div className='absolute w-full h-full top-0 left-0 overflow-hidden rounded-[inherit] -z-10'>
+            <img className='' src="./src/assets/images/bg-pattern-circles.svg" alt="circles pattern" />
+        </div>
+
+        <div className='my-10 md:mt-0 md:col-start-2 md:text-left md:pr-24'>
+          <h2 className=' text-white text-4xl pt-10 md:pt-0'>State of the Art Infrastructure</h2>  
+          <p className=' text-grayblue md:leading-8'>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+
       </div>
 
       <div className='my-24'>
