@@ -38,7 +38,7 @@ const Body = () => {
 
       <div className='my-32 md:grid md:grid-cols-2 md:items-center md:text-left'>
         <img className='w-full md:hidden' src="./src/assets/images/illustration-laptop-mobile.svg" alt="laptop illustration" />
-        <img className='hidden md:block md:-ml-40 md:scale-110' src="./src/assets/images/illustration-laptop-desktop.svg" alt="" />
+        <img className='hidden md:block md:-ml-6 md:scale-110' src="./src/assets/images/illustration-laptop-desktop.svg" alt="" />
        
         <div className='md:pr-32 md:leading-8'>
         <h2>Free, open, simple</h2>
@@ -46,9 +46,8 @@ const Body = () => {
         <h2> Powerful tooling</h2>
         <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.</p>
         </div>
-
       </div>
-      
+    
     </main>
   )
 }
